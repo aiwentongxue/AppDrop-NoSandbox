@@ -1,0 +1,4 @@
+"notification.drop.title" = "Price drop: %@";
+"notification.drop.body" = "Now %@ in the %@ store — %@ lower than the previous price.";
+"notification.drop.body.newLow" = "Now %@ in the %@ store — %@ lower than the previous price. New all-time low!";
+

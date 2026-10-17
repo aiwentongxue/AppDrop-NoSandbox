@@ -1,0 +1,60 @@
+# Xcode
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Build artifacts & distribution packages
+dist/
+*.zip
+*.zip.sha256
+*.xcarchive
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/
+
+# Xcode user data
+*.xcuserstate
+xcuserdata/
+project.xcworkspace/xcuserdata/
+
+# CocoaPods (not used, but just in case)
+Pods/
+
+# Carthage (not used, but just in case)
+Carthage/Build/
+
+# Python (Scripts/)
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Sensitive / temporary files
+*.env
+*.pem
+*.p12
+*.mobileprovision
+*.provisionprofile
+
+# AI-generated or local-only assets
+Gemini_Generated_Image_*.jpg
+Gemini_Generated_Image_*.png

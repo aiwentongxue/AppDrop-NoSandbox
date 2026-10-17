@@ -1,0 +1,4 @@
+"notification.drop.title" = "降价提醒：%@";
+"notification.drop.body" = "现价 %@（%@ 商店），较上次价格下降 %@。";
+"notification.drop.body.newLow" = "现价 %@（%@ 商店），较上次价格下降 %@，刷新历史最低价！";
+

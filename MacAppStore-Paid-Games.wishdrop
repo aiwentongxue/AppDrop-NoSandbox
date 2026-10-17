@@ -1,0 +1,519 @@
+{
+  "apps": [
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/cyberpunk-2077-ultimate-edition/id6633429424?mt=12",
+      "countryCode": "us",
+      "name": "赛博朋克 2077：终极版 / Cyberpunk 2077: Ultimate Edition",
+      "trackId": "6633429424"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/death-stranding-directors-cut/id6449748961?mt=12",
+      "countryCode": "us",
+      "name": "死亡搁浅：导演剪辑版 / DEATH STRANDING DIRECTOR'S CUT",
+      "trackId": "6449748961"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/resident-evil-village-for-mac/id1640627334?mt=12",
+      "countryCode": "us",
+      "name": "生化危机 村庄 / Resident Evil Village",
+      "trackId": "1640627334"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/control-ultimate-edition/id6502953520?mt=12",
+      "countryCode": "us",
+      "name": "控制：终极版 / Control Ultimate Edition",
+      "trackId": "6502953520"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/lies-of-p/id6459738231?mt=12",
+      "countryCode": "us",
+      "name": "匹诺曹的谎言 / Lies of P",
+      "trackId": "6459738231"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/assassins-creed-shadows/id6497794841?mt=12",
+      "countryCode": "us",
+      "name": "刺客信条：影 / Assassin's Creed Shadows",
+      "trackId": "6497794841"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/prince-of-persia-the-lost-crown/id6498547840?mt=12",
+      "countryCode": "us",
+      "name": "波斯王子：失落的王冠 / Prince of Persia: The Lost Crown",
+      "trackId": "6498547840"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/frostpunk-2/id6477945288?mt=12",
+      "countryCode": "us",
+      "name": "冰汽时代 2 / Frostpunk 2",
+      "trackId": "6477945288"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/frostpunk-complete-edition/id1534306371?mt=12",
+      "countryCode": "us",
+      "name": "冰汽时代：完整版 / Frostpunk: Complete Edition",
+      "trackId": "1534306371"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/palworld/id6503918400?mt=12",
+      "countryCode": "us",
+      "name": "幻兽帕鲁 / Palworld",
+      "trackId": "6503918400"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/dead-island-2-ultimate-edition/id6504750779?mt=12",
+      "countryCode": "us",
+      "name": "死亡岛 2：终极版 / Dead Island 2 Ultimate Edition",
+      "trackId": "6504750779"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/robocop-rogue-city/id6593685038?mt=12",
+      "countryCode": "us",
+      "name": "机器战警：暴戾都市 / RoboCop: Rogue City",
+      "trackId": "6593685038"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/stray/id6451498949?mt=12",
+      "countryCode": "us",
+      "name": "迷失 / Stray",
+      "trackId": "6451498949"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/valheim/id1554294918?mt=12",
+      "countryCode": "us",
+      "name": "英灵神殿 / Valheim",
+      "trackId": "1554294918"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/grid-legends/id1636273501?mt=12",
+      "countryCode": "us",
+      "name": "超级房车赛：传奇 / GRID Legends",
+      "trackId": "1636273501"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/snowrunner/id6466088968?mt=12",
+      "countryCode": "us",
+      "name": "雪地奔驰 / SnowRunner",
+      "trackId": "6466088968"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/the-medium/id6450460078?mt=12",
+      "countryCode": "us",
+      "name": "灵媒 / The Medium",
+      "trackId": "6450460078"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/layers-of-fear-2023/id6449149549?mt=12",
+      "countryCode": "us",
+      "name": "层层恐惧 2023 / Layers of Fear 2023",
+      "trackId": "6449149549"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/fort-solis/id6450037854?mt=12",
+      "countryCode": "us",
+      "name": "索利斯堡 / Fort Solis",
+      "trackId": "6450037854"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/firmament/id1619796222?mt=12",
+      "countryCode": "us",
+      "name": "天穹 / Firmament",
+      "trackId": "1619796222"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/riven/id1437437535?mt=12",
+      "countryCode": "us",
+      "name": "秘境 riven / Riven",
+      "trackId": "1437437535"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/myst/id1580649368?mt=12",
+      "countryCode": "us",
+      "name": "神秘岛 / Myst",
+      "trackId": "1580649368"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/metro-exodus/id1539022730?mt=12",
+      "countryCode": "us",
+      "name": "地铁：离去 金色版 / Metro Exodus Gold Edition",
+      "trackId": "1539022730"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/shadow-of-the-tomb-raider/id1439569401?mt=12",
+      "countryCode": "us",
+      "name": "古墓丽影：暗影 / Shadow of the Tomb Raider",
+      "trackId": "1439569401"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/rise-of-the-tomb-raider/id1108032375?mt=12",
+      "countryCode": "us",
+      "name": "古墓丽影：崛起 / Rise of the Tomb Raider",
+      "trackId": "1108032375"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/tomb-raider-%282013%29/id625206080?mt=12",
+      "countryCode": "us",
+      "name": "古墓丽影 2013 / Tomb Raider (2013)",
+      "trackId": "625206080"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/alien-isolation-the-collection/id973568088?mt=12",
+      "countryCode": "us",
+      "name": "异形：隔离 / Alien: Isolation",
+      "trackId": "973568088"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/total-war-three-kingdoms/id1444293493?mt=12",
+      "countryCode": "us",
+      "name": "全面战争：三国 / Total War: THREE KINGDOMS",
+      "trackId": "1444293493"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/total-war-warhammer/id1127837401?mt=12",
+      "countryCode": "us",
+      "name": "全面战争：战锤 / Total War: WARHAMMER",
+      "trackId": "1127837401"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/total-war-warhammer-ii/id1444865126?mt=12",
+      "countryCode": "us",
+      "name": "全面战争：战锤 2 / Total War: WARHAMMER II",
+      "trackId": "1444865126"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/total-war-pharaoh/id6450894289?mt=12",
+      "countryCode": "us",
+      "name": "全面战争：法老 / Total War: PHARAOH",
+      "trackId": "6450894289"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/a-total-war-saga-troy/id1497880701?mt=12",
+      "countryCode": "us",
+      "name": "全面战争：特洛伊 / A Total War Saga: TROY",
+      "trackId": "1497880701"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/total-war-rome-remastered/id1553236985?mt=12",
+      "countryCode": "us",
+      "name": "罗马：全面战争 重制版 / Total War: ROME REMASTERED",
+      "trackId": "1553236985"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/total-war-attila/id6754372958?mt=12",
+      "countryCode": "us",
+      "name": "全面战争：阿提拉 / Total War: ATTILA",
+      "trackId": "6754372958"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/total-war-empire/id523621533?mt=12",
+      "countryCode": "us",
+      "name": "帝国：全面战争 / Total War: EMPIRE",
+      "trackId": "523621533"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/total-war-napoleon/id596348901?mt=12",
+      "countryCode": "us",
+      "name": "拿破仑：全面战争 / Total War: NAPOLEON",
+      "trackId": "596348901"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/total-war-shogun-2/id803871479?mt=12",
+      "countryCode": "us",
+      "name": "幕府将军 2：全面战争 / Total War: SHOGUN 2",
+      "trackId": "803871479"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/company-of-heroes-2-collection/id973509686?mt=12",
+      "countryCode": "us",
+      "name": "英雄连 2 合集 / Company of Heroes 2 Collection",
+      "trackId": "973509686"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/xcom-2/id1070220144?mt=12",
+      "countryCode": "us",
+      "name": "幽浮 2 典藏版 / XCOM 2 Collection",
+      "trackId": "1070220144"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/bioshock-remastered/id1252653641?mt=12",
+      "countryCode": "us",
+      "name": "生化奇兵 重制版 / BioShock Remastered",
+      "trackId": "1252653641"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/bioshock-2-remastered/id1252923162?mt=12",
+      "countryCode": "us",
+      "name": "生化奇兵 2 重制版 / BioShock 2 Remastered",
+      "trackId": "1252923162"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/life-is-strange/id1090369664?mt=12",
+      "countryCode": "us",
+      "name": "奇异人生 / Life Is Strange",
+      "trackId": "1090369664"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/life-is-strange-before-the-storm/id1373285753?mt=12",
+      "countryCode": "us",
+      "name": "奇异人生：风暴前夕 / Life Is Strange: Before the Storm",
+      "trackId": "1373285753"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/life-is-strange-2/id1485279764?mt=12",
+      "countryCode": "us",
+      "name": "奇异人生 2 / Life is Strange 2",
+      "trackId": "1485279764"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/sleeping-dogs-definitive-edition/id875240059?mt=12",
+      "countryCode": "us",
+      "name": "热血无赖：最终版 / Sleeping Dogs: Definitive Edition",
+      "trackId": "875240059"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/thief-shadow-edition/id947785746?mt=12",
+      "countryCode": "us",
+      "name": "神偷：阴影版 / Thief: Shadow Edition",
+      "trackId": "947785746"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/warhammer-40%2C000-dawn-of-war-ii/id1082687204?mt=12",
+      "countryCode": "us",
+      "name": "战锤 40K：战争黎明 2 / Warhammer 40,000: Dawn of War II",
+      "trackId": "1082687204"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/warhammer-40%2C000-dawn-of-war-iii/id1194045958?mt=12",
+      "countryCode": "us",
+      "name": "战锤 40K：战争黎明 3 / Warhammer 40,000: Dawn of War III",
+      "trackId": "1194045958"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/sid-meiers-civilization-vi/id1123795278?mt=12",
+      "countryCode": "us",
+      "name": "席德·梅尔的文明 6 / Sid Meier's Civilization VI",
+      "trackId": "1123795278"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/sid-meiers-civilization-v/id439924718?mt=12",
+      "countryCode": "us",
+      "name": "席德·梅尔的文明 5 / Sid Meier's Civilization V",
+      "trackId": "439924718"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/civilization-beyond-earth/id926919592?mt=12",
+      "countryCode": "us",
+      "name": "文明：超越地球 / Civilization: Beyond Earth",
+      "trackId": "926919592"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/simcity-4-deluxe-edition/id804079949?mt=12",
+      "countryCode": "us",
+      "name": "模拟城市 4 豪华版 / SimCity 4 Deluxe Edition",
+      "trackId": "804079949"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/simcity-complete-edition/id955981476?mt=12",
+      "countryCode": "us",
+      "name": "模拟城市：完整版 / SimCity: Complete Edition",
+      "trackId": "955981476"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/the-sims-2-super-collection/id883782620?mt=12",
+      "countryCode": "us",
+      "name": "模拟人生 2：超级合集 / The Sims 2: Super Collection",
+      "trackId": "883782620"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/borderlands-2/id570316450?mt=12",
+      "countryCode": "us",
+      "name": "无主之地 2 / Borderlands 2",
+      "trackId": "570316450"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/mafia-iii/id1168769147?mt=12",
+      "countryCode": "us",
+      "name": "四海兄弟 3 / Mafia III",
+      "trackId": "1168769147"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/planet-coaster/id1517432586?mt=12",
+      "countryCode": "us",
+      "name": "过山车之星 / Planet Coaster",
+      "trackId": "1517432586"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/rollercoaster-tycoon-3/id549294099?mt=12",
+      "countryCode": "us",
+      "name": "过山车大亨 3 / RollerCoaster Tycoon 3",
+      "trackId": "549294099"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/star-wars-kotor/id416608891?mt=12",
+      "countryCode": "us",
+      "name": "星球大战：旧共和国武士 / Star Wars: KOTOR",
+      "trackId": "416608891"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/star-wars-kotor-ii/id960778634?mt=12",
+      "countryCode": "us",
+      "name": "星球大战：旧共和国武士 2 / Star Wars: KOTOR II",
+      "trackId": "960778634"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/jade-empire-special-edition/id1099295860?mt=12",
+      "countryCode": "us",
+      "name": "翡翠帝国：特别版 / Jade Empire: Special Edition",
+      "trackId": "1099295860"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/sid-meiers-railroads%21/id536502825?mt=12",
+      "countryCode": "us",
+      "name": "席德·梅尔的铁路 / Sid Meier's Railroads!",
+      "trackId": "536502825"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/disco-elysium---the-final-cut/id1508191454?mt=12",
+      "countryCode": "us",
+      "name": "极乐迪斯科：最终剪辑版 / Disco Elysium - The Final Cut",
+      "trackId": "1508191454"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/divinity-original-sin-2/id1441532941?mt=12",
+      "countryCode": "us",
+      "name": "神界：原罪 2 终极版 / Divinity: Original Sin 2",
+      "trackId": "1441532941"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/this-war-of-mine/id942935714?mt=12",
+      "countryCode": "us",
+      "name": "这是我的战争 / This War of Mine",
+      "trackId": "942935714"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/inscryption/id1626348601?mt=12",
+      "countryCode": "us",
+      "name": "邪恶冥刻 / Inscryption",
+      "trackId": "1626348601"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/return-to-monkey-island/id6450548408?mt=12",
+      "countryCode": "us",
+      "name": "重返猴岛 / Return to Monkey Island",
+      "trackId": "6450548408"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/gris/id1465779286?mt=12",
+      "countryCode": "us",
+      "name": "格里斯 / GRIS",
+      "trackId": "1465779286"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/neva/id6737359999?mt=12",
+      "countryCode": "us",
+      "name": "勇气之光 / Neva",
+      "trackId": "6737359999"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/limbo/id481629890?mt=12",
+      "countryCode": "us",
+      "name": "地狱边境 / LIMBO",
+      "trackId": "481629890"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/inside/id886561127?mt=12",
+      "countryCode": "us",
+      "name": "内部 / INSIDE",
+      "trackId": "886561127"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/machinarium/id423984210?mt=12",
+      "countryCode": "us",
+      "name": "机械迷城 / Machinarium",
+      "trackId": "423984210"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/botanicula/id517309256?mt=12",
+      "countryCode": "us",
+      "name": "植物精灵 / Botanicula",
+      "trackId": "517309256"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/samorost-3/id1090881011?mt=12",
+      "countryCode": "us",
+      "name": "银河历险记 3 / Samorost 3",
+      "trackId": "1090881011"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/chuchel/id1352949166?mt=12",
+      "countryCode": "us",
+      "name": "毛线先生 / CHUCHEL",
+      "trackId": "1352949166"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/pilgrims/id6476141896?mt=12",
+      "countryCode": "us",
+      "name": "朝圣者 / Pilgrims",
+      "trackId": "6476141896"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/gorogoa/id1384710628?mt=12",
+      "countryCode": "us",
+      "name": "画中世界 / Gorogoa",
+      "trackId": "1384710628"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/florence/id1477652808?mt=12",
+      "countryCode": "us",
+      "name": "佛罗伦萨 / Florence",
+      "trackId": "1477652808"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/donut-county/id1405347356?mt=12",
+      "countryCode": "us",
+      "name": "甜甜圈都市 / Donut County",
+      "trackId": "1405347356"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/baldurs-gate-enhanced-edition/id568196938?mt=12",
+      "countryCode": "us",
+      "name": "博德之门：增强版 / Baldur's Gate: Enhanced Edition",
+      "trackId": "568196938"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/baldurs-gate-ii-enhanced-edition/id746413884?mt=12",
+      "countryCode": "us",
+      "name": "博德之门 2：增强版 / Baldur's Gate II: Enhanced Edition",
+      "trackId": "746413884"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/icewind-dale-enhanced-edition/id909475396?mt=12",
+      "countryCode": "us",
+      "name": "冰风谷：增强版 / Icewind Dale: Enhanced Edition",
+      "trackId": "909475396"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/planescape-torment-enhanced-edition/id1210832145?mt=12",
+      "countryCode": "us",
+      "name": "异域镇魂曲：增强版 / Planescape: Torment: Enhanced Edition",
+      "trackId": "1210832145"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/tropico-6/id1195607022?mt=12",
+      "countryCode": "us",
+      "name": "海岛大亨 6 / Tropico 6",
+      "trackId": "1195607022"
+    },
+    {
+      "appStoreURL": "https://apps.apple.com/us/app/sudden-strike-4/id1185483748?mt=12",
+      "countryCode": "us",
+      "name": "突袭 4 / Sudden Strike 4",
+      "trackId": "1185483748"
+    }
+  ],
+  "author": "AppDrop",
+  "exportedAt": "2026-10-14T12:23:29Z",
+  "formatIdentifier": "com.appdrop.wishdrop",
+  "title": "Mac App Store Paid Games Collection (85 Games)",
+  "version": 1
+}

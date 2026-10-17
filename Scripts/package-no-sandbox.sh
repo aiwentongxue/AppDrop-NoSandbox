@@ -33,8 +33,11 @@ hdiutil create \
     -ov -format UDZO \
     "$DMG_PATH"
 
-shasum -a 256 "$ZIP_PATH" > "$ZIP_PATH.sha256"
-shasum -a 256 "$DMG_PATH" > "$DMG_PATH.sha256"
+(
+    cd "$DIST"
+    shasum -a 256 "$(basename "$ZIP_PATH")" > "$(basename "$ZIP_PATH").sha256"
+    shasum -a 256 "$(basename "$DMG_PATH")" > "$(basename "$DMG_PATH").sha256"
+)
 
 echo "$ZIP_PATH"
 echo "$DMG_PATH"

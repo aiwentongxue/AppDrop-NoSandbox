@@ -27,13 +27,14 @@ import Testing
     }
 
     final class MockNotifier: UserNotifying, @unchecked Sendable {
-        var sent: [PriceDropNotification] = []
+        var sentBatches: [[PriceDropNotification]] = []
+        var shouldSucceed = true
 
         func permission() async -> NotificationPermissionStatus { .authorized }
         func requestPermission() async -> NotificationPermissionStatus { .authorized }
-        func sendPriceDrop(_ notification: PriceDropNotification) async -> Bool {
-            sent.append(notification)
-            return true
+        func sendPriceDrops(_ notifications: [PriceDropNotification]) async -> Bool {
+            sentBatches.append(notifications)
+            return shouldSucceed
         }
     }
 
@@ -93,13 +94,14 @@ import Testing
         #expect(first.checkedCount == 1)
         #expect(first.changedCount == 1)
         #expect(first.notifiedCount == 1)
-        #expect(harness.notifier.sent.count == 1)
-        #expect(harness.notifier.sent.first?.isNewLow == true)
+        #expect(harness.notifier.sentBatches.count == 1)
+        #expect(harness.notifier.sentBatches.first?.count == 1)
+        #expect(harness.notifier.sentBatches.first?.first?.isNewLow == true)
 
         let second = await harness.engine.run(source: .manual, mode: .skipIfBusy)
         #expect(second.changedCount == 0)
         #expect(second.notifiedCount == 0)
-        #expect(harness.notifier.sent.count == 1)
+        #expect(harness.notifier.sentBatches.count == 1)
         let records = try await harness.store.records(trackId: "123456789", countryCode: "us")
         #expect(records.count == 2)
         #expect(records.last?.notifiedAt != nil)
@@ -115,12 +117,74 @@ import Testing
         let summary = await harness.engine.run(source: .manual, mode: .skipIfBusy)
         #expect(summary.outcome == .success)
         #expect(summary.notifiedCount == 0)
-        #expect(harness.notifier.sent.isEmpty)
+        #expect(harness.notifier.sentBatches.isEmpty)
         let snapshot = try #require(try await harness.store.snapshot(trackId: "123456789", countryCode: "us"))
         #expect(snapshot.price.price == Decimal(string: "4.99"))
         // A baseline alone is not a low; nothing has dropped yet.
         #expect(!snapshot.price.isAtHistoricalLow)
         #expect(snapshot.priceObservationCount == 1)
+    }
+
+    @Test func multipleDropsInOneRunProduceOneNotificationBatch() async throws {
+        let harness = try makeHarness()
+        for index in 0..<4 {
+            _ = try await insert(harness.store, trackId: "12345678\(index)")
+        }
+        harness.fetcher.outcome = LookupOutcome(apps: (0..<4).map { index in
+            AppStoreApp(
+                trackId: "12345678\(index)",
+                name: "Game \(index + 1)",
+                price: Decimal(string: "4.99"),
+                formattedPrice: "$4.99",
+                currency: "USD"
+            )
+        })
+
+        let summary = await harness.engine.run(source: .background, mode: .skipIfBusy)
+
+        #expect(summary.changedCount == 4)
+        #expect(summary.notifiedCount == 4)
+        #expect(harness.notifier.sentBatches.count == 1)
+        #expect(harness.notifier.sentBatches.first?.count == 4)
+        for index in 0..<4 {
+            let records = try await harness.store.records(
+                trackId: "12345678\(index)",
+                countryCode: "us"
+            )
+            #expect(records.last?.notifiedAt != nil)
+        }
+    }
+
+    @Test func failedBatchLeavesEveryRecordUnnotified() async throws {
+        let harness = try makeHarness()
+        _ = try await insert(harness.store, trackId: "123456781")
+        _ = try await insert(harness.store, trackId: "123456782")
+        harness.fetcher.outcome = LookupOutcome(apps: [
+            AppStoreApp(
+                trackId: "123456781",
+                name: "Game 1",
+                price: Decimal(string: "4.99"),
+                formattedPrice: "$4.99",
+                currency: "USD"
+            ),
+            AppStoreApp(
+                trackId: "123456782",
+                name: "Game 2",
+                price: Decimal(string: "3.99"),
+                formattedPrice: "$3.99",
+                currency: "USD"
+            )
+        ])
+        harness.notifier.shouldSucceed = false
+
+        let summary = await harness.engine.run(source: .background, mode: .skipIfBusy)
+
+        #expect(summary.notifiedCount == 0)
+        #expect(harness.notifier.sentBatches.count == 1)
+        for trackId in ["123456781", "123456782"] {
+            let records = try await harness.store.records(trackId: trackId, countryCode: "us")
+            #expect(records.last?.notifiedAt == nil)
+        }
     }
 
     @Test func notFoundKeepsPriceAndMarksEntry() async throws {

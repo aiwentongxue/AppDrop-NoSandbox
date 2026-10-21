@@ -494,11 +494,12 @@ public final class RefreshEngine: @unchecked Sendable {
         }
 
         var notifiedCount = 0
-        for notification in pendingNotifications {
-            if await notifier.sendPriceDrop(notification) {
+        if !pendingNotifications.isEmpty,
+           await notifier.sendPriceDrops(pendingNotifications) {
+            for notification in pendingNotifications {
                 try? await store.markNotified(recordID: notification.recordID, at: now())
-                notifiedCount += 1
             }
+            notifiedCount = pendingNotifications.count
         }
 
         let outcome: CheckRunOutcome

@@ -98,7 +98,7 @@ Scripts/make-signed-build.sh \
   "/Applications/AppDrop No Sandbox.app"
 
 # 6. 生成 ZIP、DMG 和 SHA-256
-Scripts/package-no-sandbox.sh "/Applications/AppDrop No Sandbox.app" 1.0.3
+Scripts/package-no-sandbox.sh "/Applications/AppDrop No Sandbox.app" 1.0.4
 ```
 
 ### 权限与分发

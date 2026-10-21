@@ -99,7 +99,7 @@ Scripts/make-signed-build.sh \
   "/Applications/AppDrop No Sandbox.app"
 
 # 6. Produce ZIP, DMG, and SHA-256 files
-Scripts/package-no-sandbox.sh "/Applications/AppDrop No Sandbox.app" 1.0.3
+Scripts/package-no-sandbox.sh "/Applications/AppDrop No Sandbox.app" 1.0.4
 ```
 
 For detailed instructions including signing, installation, and troubleshooting, see [Documentation/build-and-run.md](Documentation/build-and-run.md).

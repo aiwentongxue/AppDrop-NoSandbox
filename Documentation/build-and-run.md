@@ -48,13 +48,13 @@ Scripts/make-signed-build.sh \
 ## 打包
 
 ```bash
-Scripts/package-no-sandbox.sh "/Applications/AppDrop No Sandbox.app" 1.0.3
+Scripts/package-no-sandbox.sh "/Applications/AppDrop No Sandbox.app" 1.0.4
 ```
 
 输出：
 
-- `dist/AppDrop-NoSandbox-1.0.3-macOS-universal.zip`
-- `dist/AppDrop-NoSandbox-1.0.3-macOS-universal.dmg`
+- `dist/AppDrop-NoSandbox-1.0.4-macOS-universal.zip`
+- `dist/AppDrop-NoSandbox-1.0.4-macOS-universal.dmg`
 - 对应 `.sha256` 文件
 
 ## 验证

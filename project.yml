@@ -46,15 +46,18 @@ targets:
         PRODUCT_NAME: AppDrop No Sandbox
         CODE_SIGN_ENTITLEMENTS: AppDrop/AppDrop.entitlements
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        MARKETING_VERSION: "1.0.3"
-        CURRENT_PROJECT_VERSION: "4"
+        MARKETING_VERSION: "1.0.4"
+        CURRENT_PROJECT_VERSION: "5"
     info:
       path: AppDrop/Info.plist
       properties:
         CFBundleDisplayName: AppDrop No Sandbox
         CFBundleName: AppDrop No Sandbox
-        CFBundleShortVersionString: "1.0.3"
-        CFBundleVersion: "4"
+        CFBundleShortVersionString: "1.0.4"
+        CFBundleVersion: "5"
+        CFBundleLocalizations:
+          - en
+          - zh-Hans
         LSApplicationCategoryType: public.app-category.utilities
         NSHumanReadableCopyright: "Copyright (C) 2026 我是艾文喵"
         LSMinimumSystemVersion: "14.0"
@@ -96,15 +99,18 @@ targets:
         # and Xcode omits ApplicationProperties (Organizer then shows no version
         # and cannot export the app).
         SKIP_INSTALL: YES
-        MARKETING_VERSION: "1.0.3"
-        CURRENT_PROJECT_VERSION: "4"
+        MARKETING_VERSION: "1.0.4"
+        CURRENT_PROJECT_VERSION: "5"
     info:
       path: AppDropHelper/Info.plist
       properties:
         CFBundleDisplayName: AppDrop No Sandbox Helper
         CFBundleName: AppDropHelper
-        CFBundleShortVersionString: "1.0.3"
-        CFBundleVersion: "4"
+        CFBundleShortVersionString: "1.0.4"
+        CFBundleVersion: "5"
+        CFBundleLocalizations:
+          - en
+          - zh-Hans
         LSUIElement: true
         LSMinimumSystemVersion: "14.0"
         NSHumanReadableCopyright: "Copyright (C) 2026 我是艾文喵"

@@ -15,7 +15,7 @@
 ## 功能特性
 
 - 🔍 **多区域追踪**：支持 17 个商店区域，每个追踪项目独立对应一个区域
-- 📈 **价格历史**：阶梯折线图展示完整价格走势（Swift Charts）
+- 📈 **价格历史**：阶梯折线图支持3个月、6个月、12个月与全部历史，鼠标悬停查看精确价格，并统计所选范围内的连续史低次数（Swift Charts）
 - 🏷️ **历史新低**：自动识别并标记历史最低价
 - 🔔 **本地通知**：降价时发送系统通知（主 App 与后台 Helper 各自独立请求权限）
 - 🔄 **后台自动检查**：通过 SMAppService + launchd 按天调度，执行后退出，不常驻内存
@@ -53,7 +53,7 @@
 | 通知 | UserNotifications |
 | 网络 | URLSession（iTunes Search / Lookup API）|
 | 工程 | XcodeGen（`project.yml`）+ SwiftPM 本地包 `SharedKit` |
-| 测试 | Swift Testing（83 个测试用例）|
+| 测试 | Swift Testing（108 个测试用例）|
 
 ## 目录结构
 
@@ -98,7 +98,7 @@ Scripts/make-signed-build.sh \
   "/Applications/AppDrop No Sandbox.app"
 
 # 6. 生成 ZIP、DMG 和 SHA-256
-Scripts/package-no-sandbox.sh "/Applications/AppDrop No Sandbox.app" 1.0.4
+Scripts/package-no-sandbox.sh "/Applications/AppDrop No Sandbox.app" 1.0.5
 ```
 
 ### 权限与分发

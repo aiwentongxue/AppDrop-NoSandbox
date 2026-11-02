@@ -161,14 +161,8 @@ struct AppDetailView: View {
     }
 
     private var chartSection: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Text(AppStrings.string("detail.chart.title"))
-                .font(.headline)
-            PriceHistoryChartView(
-                points: chartPoints,
-                lowest: hasPriceComparison ? lowestPoint : nil
-            )
-        }
+        PriceHistoryChartView(records: records.map { $0.makeSnapshot() }, currency: app.currency)
+            .id(app.id)
     }
 
     /// True once at least one higher price has been observed, i.e. the recorded
@@ -201,25 +195,6 @@ struct AppDetailView: View {
             Spacer()
         }
         .padding(.top, 4)
-    }
-
-    /// Only records in the app's current currency are plotted; earlier records
-    /// in a different currency are excluded instead of mixed into one series.
-    private var chartPoints: [PriceHistoryChartView.ChartPoint] {
-        let currentCurrency = app.currency
-        return records
-            .filter { currentCurrency == nil || $0.currency == currentCurrency }
-            .map { record in
-                PriceHistoryChartView.ChartPoint(
-                    date: record.timestamp,
-                    price: NSDecimalNumber(decimal: record.price).doubleValue,
-                    formatted: record.formattedPrice
-                )
-            }
-    }
-
-    private var lowestPoint: PriceHistoryChartView.ChartPoint? {
-        chartPoints.min { $0.price < $1.price }
     }
 
     private func checkNow() {

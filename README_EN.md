@@ -15,7 +15,7 @@ This repository is the standalone **AppDrop No Sandbox** edition. It uses no App
 ## Features
 
 - 🔍 **Multi-storefront tracking** — Track prices across 17 storefronts; each tracked item is tied to a specific storefront.
-- 📈 **Price history chart** — Step-line chart powered by Swift Charts (`.stepEnd` interpolation).
+- 📈 **Price history chart** — Step-line chart with 3-, 6-, and 12-month or full-history ranges, exact hover prices, and counts of continuous all-time-low periods, powered by Swift Charts.
 - 🏷️ **All-time low detection** — Automatically identifies and badges all-time low prices.
 - 🔔 **Local notifications** — Sends a system notification when a price drops (main App and background Helper each request their own permission).
 - 🔄 **Background checks** — Scheduled via SMAppService + launchd; the Helper runs, writes to the database, sends notifications, then exits — no persistent process.
@@ -53,7 +53,7 @@ The same region list (17 storefronts) drives the search picker, the "change regi
 | Notifications | UserNotifications |
 | Networking | URLSession (iTunes Search / Lookup API) |
 | Project | XcodeGen (`project.yml`) + local SwiftPM package `SharedKit` |
-| Tests | Swift Testing (83 test cases) |
+| Tests | Swift Testing (108 test cases) |
 
 ## Repository Structure
 
@@ -99,7 +99,7 @@ Scripts/make-signed-build.sh \
   "/Applications/AppDrop No Sandbox.app"
 
 # 6. Produce ZIP, DMG, and SHA-256 files
-Scripts/package-no-sandbox.sh "/Applications/AppDrop No Sandbox.app" 1.0.4
+Scripts/package-no-sandbox.sh "/Applications/AppDrop No Sandbox.app" 1.0.5
 ```
 
 For detailed instructions including signing, installation, and troubleshooting, see [Documentation/build-and-run.md](Documentation/build-and-run.md).

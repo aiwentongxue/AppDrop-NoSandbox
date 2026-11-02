@@ -46,15 +46,15 @@ targets:
         PRODUCT_NAME: AppDrop No Sandbox
         CODE_SIGN_ENTITLEMENTS: AppDrop/AppDrop.entitlements
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        MARKETING_VERSION: "1.0.4"
-        CURRENT_PROJECT_VERSION: "5"
+        MARKETING_VERSION: "1.0.5"
+        CURRENT_PROJECT_VERSION: "6"
     info:
       path: AppDrop/Info.plist
       properties:
         CFBundleDisplayName: AppDrop No Sandbox
         CFBundleName: AppDrop No Sandbox
-        CFBundleShortVersionString: "1.0.4"
-        CFBundleVersion: "5"
+        CFBundleShortVersionString: "1.0.5"
+        CFBundleVersion: "6"
         CFBundleLocalizations:
           - en
           - zh-Hans
@@ -99,15 +99,15 @@ targets:
         # and Xcode omits ApplicationProperties (Organizer then shows no version
         # and cannot export the app).
         SKIP_INSTALL: YES
-        MARKETING_VERSION: "1.0.4"
-        CURRENT_PROJECT_VERSION: "5"
+        MARKETING_VERSION: "1.0.5"
+        CURRENT_PROJECT_VERSION: "6"
     info:
       path: AppDropHelper/Info.plist
       properties:
         CFBundleDisplayName: AppDrop No Sandbox Helper
         CFBundleName: AppDropHelper
-        CFBundleShortVersionString: "1.0.4"
-        CFBundleVersion: "5"
+        CFBundleShortVersionString: "1.0.5"
+        CFBundleVersion: "6"
         CFBundleLocalizations:
           - en
           - zh-Hans

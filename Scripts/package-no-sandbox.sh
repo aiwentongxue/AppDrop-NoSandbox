@@ -6,7 +6,7 @@ set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 APP_PATH="${1:?usage: package-no-sandbox.sh <signed .app> [version]}"
-VERSION="${2:-1.0.4}"
+VERSION="${2:-1.0.5}"
 DIST="$REPO_ROOT/dist"
 STEM="AppDrop-NoSandbox-$VERSION-macOS-universal"
 ZIP_PATH="$DIST/$STEM.zip"
